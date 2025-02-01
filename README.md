@@ -1,4 +1,4 @@
-# mercylite-hospital<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,7 +27,9 @@
         <p>&copy; 2025 Mercylite Hospital. All rights reserved.</p>
     </footer>
 </body>
-</html><!DOCTYPE html>
+</html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -178,7 +180,7 @@
         <h1>Contact Us</h1>
         <p>If you have any questions or inquiries, please contact us using the details below:</p>
         <p><strong>Phone:</strong> 0708764052 or 0711162999</p>
-        <p><strong>Email:</strong> info@mercylitehospital.com</p>
+        <p><strong>Email:</strong> <a href="mailto:mercyliteclaimsdepart@gmail.com">mercyliteclaimsdepart@gmail.com</a></p>
         <p><strong>Location:</strong> XYZ Street, Nairobi</p>
     </section>
     <footer>
@@ -194,12 +196,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e9f7f3; /* light greenish background */
     color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #388e3c; /* Green header */
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -221,7 +223,7 @@ header nav ul li a {
 }
 
 .hero {
-    background-color: #ff6347;
+    background-color: #43a047; /* Slightly darker green */
     color: white;
     text-align: center;
     padding: 50px 0;
@@ -245,7 +247,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #388e3c;
     color: white;
     margin-top: 20px;
 }
@@ -269,7 +271,7 @@ form input, form select {
 }
 
 form button {
-    background-color: #ff6347;
+    background-color: #43a047; /* Green button */
     color: white;
     padding: 10px;
     border: none;
@@ -278,10 +280,6 @@ form button {
 }
 
 form button:hover {
-    background-color: #ff4500;
+    background-color: #388e3c; /* Darker green when hovered */
 }
-document.getElementById('appointmentForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Your appointment has been booked successfully!');
-});
 
